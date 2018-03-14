@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="configService" />
+        <module name="content" />
+        <module name="eurekaService" />
+        <module name="feignService" />
+        <module name="ribbonService" />
+        <module name="serviceProvider" />
+        <module name="zuulService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configService" target="1.8" />
+      <module name="content" target="1.5" />
+      <module name="eurekaService" target="1.8" />
+      <module name="feignService" target="1.8" />
+      <module name="ribbonService" target="1.8" />
+      <module name="serviceProvider" target="1.8" />
+      <module name="zuulService" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

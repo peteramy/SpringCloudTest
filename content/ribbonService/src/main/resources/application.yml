@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+    #服务注册中心地址
+      defaultZone: http://localhost:8080/eureka/
+      #本服务的端口号
+server:
+  port: 8085
+  #本服务的名字
+spring:
+  application:
+    name: service-ribbon
